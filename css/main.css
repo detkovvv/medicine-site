@@ -1,0 +1,116 @@
+body 
+
+.header {
+	display: flex;
+
+	
+}
+.header_navbar {
+	display: flex;
+	z-index: 2;
+	position: relative;
+    width: 1170px;
+    height: 45px;
+    left: 115px;
+    top: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	justify-content: center;
+	align-items: center;
+}
+.logo1 {
+	position: absolute;
+	left: 0%;
+	right: 95.44%;
+	top: 0%;
+	bottom: 31.63%;
+}
+.logo2 {
+	
+	position: absolute;
+	left: 0.69%;
+	right: 94.02%;
+	top: 16.33%;
+	bottom: 0%;
+}
+.logo3	 {
+	position: absolute;
+	left: 7.69%;
+	right: 82.39%;
+	top: 15.6%;
+	bottom: 17.54%;
+	color: #fff;
+
+}
+.header a {
+	margin-right: 40px;
+}
+.main {
+	display:  flex;
+	flex-wrap:  wrap;
+	padding: 0;
+	border:  0;
+	margin:  0;
+	height: 800px;
+	z-index: 1;
+}
+.main-left {
+	background-color: #E95258;
+	flex:  0 0 50%;
+	position: absolute;
+    width: 700px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+}
+.cardio {
+	position: absolute;
+    width: 428px;
+    height: 500px;
+    left: 172px;
+    top: 200px;
+    color: #fff;
+
+}
+.placemat{
+	position: absolute;
+	width: 395px;
+	height: 557px;
+ 	left: 0px;
+	top: 243px;
+	background: none;
+	z-index: 0;
+
+}
+.main-right {
+	background-color: #f9f9f9;
+	flex:  0 0 50%;
+	/*position: absolute;*/
+    width: 700px;
+    height: 800px;
+    left: 700px;
+    top: 0px;
+}
+.travma {
+	position: absolute;
+    width: 450px;
+    height: 500px;
+    left: 800px;
+    top: 200px;	
+    color: #000;
+}    
+.button {
+    
+}
+.p {
+	position: absolute;
+	width: 329px;
+	height: 119px;
+	left: 271px;
+	top: 322px;
+	font-family: 'TT Hoves';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: right;
+}
